@@ -1,0 +1,3 @@
+En las reflexivas, aparece el id de la entidad como FK de la misma. 
+En el dia tenemos el atributo de Empleados, y tiene una relacion de ser jefe, entonces ponemos idEmpleadoJefeFK.
+Primero debemos de poner a los padres y luego a los hijos todos juntos da igual orden de estos a no ser que tengan una relacion entre ellos

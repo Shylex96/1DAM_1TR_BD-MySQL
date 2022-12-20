@@ -1,0 +1,4 @@
+CENTROS(#idCentro, nombreCentro, direccionCentro)
+ALUMNOS(#idAlumno, nombreAlumno, direccionAlumno, idCentroFK)
+ASIGNATURAS(#idAsignatura, horasAsignatura, matriculasAsignatura)
+PERTENENCIAS(#idPertenencias, idAlumnoFK, idAsignaturaFK, notasAsignatura)

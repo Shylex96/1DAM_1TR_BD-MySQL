@@ -1,0 +1,3 @@
+PERSONAS(#dniPersona, nombrePersona, primerApellidoPersona, segundoApellidoPersona, direccionPersona)
+COCHES(#numeroMatriculaCoche, marcaCoche, colorCoche, modeloCoche)
+PERTENENCIAS(#idPertenencia, dniPersonaFK, numeroMatriculaCocheFK, fechaAdquisicion)

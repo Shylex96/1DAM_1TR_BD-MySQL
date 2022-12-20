@@ -1,0 +1,2 @@
+CLIENTES(#idCliente, dniCliente, nombreCliente, direccionCliente)
+CUENTAS(#idCuenta, numeroCuenta, tipoCuenta, saldoCuenta, fechaCreacionCuenta, idClienteFK)

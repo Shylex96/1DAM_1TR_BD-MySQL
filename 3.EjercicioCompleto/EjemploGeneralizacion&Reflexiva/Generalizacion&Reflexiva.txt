@@ -1,0 +1,18 @@
+Clientes(#idCliente, nombreCliente, telefonoCliente, correoElectronicoCliente)
+Empleados(#idEmpleado, nombreEmpleado, primerApellidoEmpleado, segundoApellidoEmpleado, telefonoEmpleado, idEmpleadoJefeFK)
+Trenes(#idTren, anchoViaTren, longitudTren, matriculaTren, colorTren, fechaFabricacionTrenes)
+Revisores(#idEmpleadoFK, nivelInglesRevisor)
+Administrativos(#idEmpleadoFK, oficinaAdministrativo)
+Conductores(#idEmpleadoFK, fechaRevisionMedicaConductor)
+VagonesPasajeros(#idTrenFK, numeroAsientos)
+Mercancias(#idTrenFK, pesoMaximo)
+Locomotoras(#idTrenFK, potenciaMotor, tipoMotor)
+
+RELACIONES N:M
+
+RESERVAS(#idReserva, idClienteFK, idTrenFK, fecha)
+asignacionesConduccion(#idAsignacionConductor, idEmpleadoFK, idTrenFK, fecha)
+asignacionesRevision(#idAsignacionRevisor, idEmpleadoFK, idTrenFK, fecha)
+
+
+
